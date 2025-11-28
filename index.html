@@ -1,103 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sidhant Singh Manral | Portfolio</title>
-
-    <style>
-        body{
-            margin: 0;
-            font-family: "Poppins", sans-serif;
-            background: linear-gradient(135deg, #6a11cb, #2575fc);
-            color: white;
-            overflow-x: hidden;
-        }
-
-        /* NAVBAR */
-        nav{
-            display:flex;
-            justify-content:space-between;
-            align-items:center;
-            padding:20px 60px;
-            font-size:18px;
-        }
-        nav a{
-            color:#fff;
-            text-decoration:none;
-            margin:0 12px;
-            font-weight:500;
-            transition:0.3s;
-        }
-        nav a:hover{
-            color:#ffd700;
-            transform: scale(1.1);
-        }
-        nav .logo{
-            font-size:26px;
-            font-weight:700;
-        }
-
-        /* HERO SECTION */
-        .hero{
-            height:80vh;
-            display:flex;
-            flex-direction:column;
-            justify-content:center;
-            align-items:center;
-            text-align:center;
-        }
-        .hero h1{
-            font-size:48px;
-            letter-spacing:1px;
-            font-weight:700;
-        }
-        .hero p{
-            font-size:20px;
-            opacity:0.9;
-        }
-
-        /* BUTTON */
-        .btn{
-            margin-top:20px;
-            padding:12px 28px;
-            background:white;
-            color:#2575fc;
-            border-radius:30px;
-            font-size:18px;
-            font-weight:600;
-            text-decoration:none;
-            transition:0.4s;
-        }
-        .btn:hover{
-            background:#ffd700;
-            color:black;
-            box-shadow:0 0 15px #fff;
-            transform: scale(1.05);
-        }
-
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sidhant Singh Manral | Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <nav>
-        <div class="logo">My Portfolio</div>
-        <div>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skills</a>
-            <a href="#">Gallery</a>
-            <a href="#">Contact</a>
-        </div>
-    </nav>
+<!-- Navigation -->
+<header>
+  <div class="logo">Sidhant.</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Projects</a>
+    <a href="#">Skills</a>
+    <a href="#">About</a>
+    <a href="#" class="nav-btn">Contact</a>
+  </nav>
+</header>
 
-    <div class="hero">
-        <h1>Hello, I'm <b>Sidhant Singh Manral</b></h1>
-        <p>Welcome to my Website ✨</p>
-        <a href="#more" class="btn">Explore More</a>
+<!-- Hero Section -->
+<section class="hero">
+  <div class="content">
+    <h1>Building <span>Creative Websites</span><br> With Modern UI.</h1>
+    <p>I create stylish interactive websites with animations, gradients and awesome visuals.</p>
+
+    <div class="cta">
+      <input type="text" placeholder="Enter your Email">
+      <button>Get Started 🚀</button>
     </div>
+  </div>
+
+  <div class="graphic-box">
+    <img src="https://images.unsplash.com/photo-1527681051086-01b155e9c9a5?q=80&w=600" alt="">
+    <div class="bubble">Let's Build Something!</div>
+    <div class="bubble2">Absolutely!</div>
+  </div>
+</section>
 
 </body>
 </html>
