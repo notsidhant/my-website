@@ -1,51 +1,50 @@
-*{
-    margin:0;
-    padding:0;
-    font-family:Poppins, sans-serif;
-}
-
 body{
-    background: linear-gradient(135deg, #ff00c8, #7a00ff, #00e0ff);
-    background-size:400% 400%;
-    animation:gradient 10s infinite alternate;
+    margin:0;
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
     color:white;
-    text-align:center;
 }
 
-@keyframes gradient{
-    0%{background-position:0% 50%;}
-    100%{background-position:100% 50%;}
-}
-
-header{
+/* Navbar */
+nav{
     display:flex;
     justify-content:space-between;
-    padding:20px 40px;
+    padding:20px 50px;
+    font-size:20px;
 }
-
 nav a{
-    margin:0 15px;
-    text-decoration:none;
+    margin:0 10px;
     color:white;
-    font-weight:bold;
+    text-decoration:none;
+    font-weight:600;
+}
+nav a:hover{
+    color:#ffd700;
 }
 
-nav a:hover, .active{
-    color:yellow;
-}
-
+/* Hero */
 .hero{
-    margin-top:120px;
+    height:80vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
 }
-
-.hero h1 span{ color:#ffdd00; }
-
+.hero h1{
+    font-size:45px;
+}
 .btn{
-    background:white;
-    color:black;
-    padding:10px 25px;
-    border-radius:25px;
     margin-top:20px;
-    display:inline-block;
-    font-weight:bold;
+    padding:12px 30px;
+    background:white;
+    color:#2575fc;
+    border-radius:30px;
+    font-size:18px;
+    text-decoration:none;
+    font-weight:600;
+}
+.btn:hover{
+    background:#ffd700;
+    color:black;
 }
