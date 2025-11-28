@@ -32,4 +32,72 @@
         }
         nav a:hover{
             color:#ffd700;
-            transform:
+            transform: scale(1.1);
+        }
+        nav .logo{
+            font-size:26px;
+            font-weight:700;
+        }
+
+        /* HERO SECTION */
+        .hero{
+            height:80vh;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+        }
+        .hero h1{
+            font-size:48px;
+            letter-spacing:1px;
+            font-weight:700;
+        }
+        .hero p{
+            font-size:20px;
+            opacity:0.9;
+        }
+
+        /* BUTTON */
+        .btn{
+            margin-top:20px;
+            padding:12px 28px;
+            background:white;
+            color:#2575fc;
+            border-radius:30px;
+            font-size:18px;
+            font-weight:600;
+            text-decoration:none;
+            transition:0.4s;
+        }
+        .btn:hover{
+            background:#ffd700;
+            color:black;
+            box-shadow:0 0 15px #fff;
+            transform: scale(1.05);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">My Portfolio</div>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Skills</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>Hello, I'm <b>Sidhant Singh Manral</b></h1>
+        <p>Welcome to my Website ✨</p>
+        <a href="#more" class="btn">Explore More</a>
+    </div>
+
+</body>
+</html>
